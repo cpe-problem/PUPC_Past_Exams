@@ -2,5 +2,5 @@
 
 makefile command: <br>
 
-compile: mingw32-make
-./bin/xxxxxx
+compile: mingw32-make ./bin/xxxxxx <br>
+
