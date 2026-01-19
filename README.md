@@ -1,3 +1,6 @@
 # 拿下銅獎 <br>
 
-衝阿!
+makefile command: <br>
+
+compile: mingw32-make
+./bin/xxxxxx
