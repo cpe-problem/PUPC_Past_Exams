@@ -1,6 +1,6 @@
 .phony: clean
 
-all: d_p
+all: h_p
 
 # a_p: A_problem.cpp
 # 	g++  A_problem.cpp -o bin/a_p
@@ -11,8 +11,8 @@ all: d_p
 # c_p: C_problem.cpp
 # 	g++  C_problem.cpp -o bin/c_p
 
-d_p: D_problem.cpp
-	g++  D_problem.cpp -o bin/d_p
+# d_p: D_problem.cpp
+# 	g++  D_problem.cpp -o bin/d_p
 
 # e_p: E_problem.cpp
 # 	g++  E_problem.cpp -o bin/e_p
@@ -22,3 +22,6 @@ d_p: D_problem.cpp
 
 # g_p: G_problem.cpp
 # 	g++  G_problem.cpp -o bin/g_p
+
+h_p: H_problem.cpp
+	g++  H_problem.cpp -o bin/h_p
